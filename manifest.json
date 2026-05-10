@@ -1,0 +1,10 @@
+{
+    "ID": "UrsaCascadia_MemorumTonic",
+    "LoadOrder": 1,
+    "Title": "Memorum Tonic",
+    "Description": "Adds the Memorum Tonic, an exceedingly limited item that allows one to cheat death.",
+    "Version": "0.1.0",
+    "Author": "{{amorous|UrsaCascadia}}",
+    "Tags": "Tonic, Item, Balance",
+    "PreviewImage": "null.png"
+}

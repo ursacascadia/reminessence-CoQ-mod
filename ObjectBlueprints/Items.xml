@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+    <object Name="UrsaCascadia_MemorumTonic" Inherits="Tonic">
+        <part Name="Render" DisplayName="{{reminiscent|memorum}} injector" ColorString="MM" DetailColor="b" />
+        <part Name="UrsaCascadia_Memorum_Tonic_Applicator" />
+        <part Name="RulesDescription" Text="Causes a memorum crystal to sprout from your flesh.
+        The memorum crystal can be crushed to return to the moment it was formed.
+        When you die, the memorum crystal will spontaneously disentigrate, bringing you back automatically.
+        Using this while you carry a memorum crystal will change the resonance of the existing crystal.
+        Has no effect on non-player characters."
+        />
+        <tag Name="Tier" Value="3" />
+        <tag Name="TechTier" Value="4" />
+        <part Name="TinkerItem" CanDisassemble="false" CanBuild="false" />
+        <tag Name="Gift" Value="*noinherit" />
+        <tag Name="ExcludeFromDynamicEncounters" />
+    </object>
+    <object Name="UrsaCascadia_MemorumCrystal" Inherits="Trinket">
+        <part Name="Render" DisplayName="{{reminiscent|memorum}} crystal" Tile="Assets_Content_Textures_Items_bit11" RenderString="&#x4;" ColorString="&amp;B" DetailColor="m" />
+        <part Name="Commerce" Value="0" />
+        <part Name="Examiner" Unknown="darkCrystal" Complexity="0" />
+        <part Name="TinkerItem" CanDisassemble="false" CanBuild="false" />
+        <part Name="Description" Short="A translucent crystal. The center bends light around it, absorbing light that would otherwise penetrate. It shifts like a river, glittering in the moonlight." />
+        <part Name="UrsaCascadia_Memorum_Crystal" />
+        <tag Name="Tier" Value="4" />
+        <tag Name="ExcludeFromDynamicEncounters" />
+    </object>
+</objects>
