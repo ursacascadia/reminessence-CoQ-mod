@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <objects>
     <object Name="UrsaCascadia_MemorumTonic" Inherits="Tonic">
-        <part Name="Render" DisplayName="{{reminiscent|memorum}} injector" ColorString="MM" DetailColor="b" />
+        <part Name="Render" DisplayName="{{reminiscent|memorum}} injector" />
         <part Name="UrsaCascadia_Memorum_Tonic_Applicator" />
         <part Name="RulesDescription" Text="Causes a memorum crystal to sprout from your flesh.
         The memorum crystal can be crushed to return to the moment it was formed.
