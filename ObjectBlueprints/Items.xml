@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <objects>
     <object Name="UrsaCascadia_MemorumTonic" Inherits="Tonic">
-        <part Name="Render" DisplayName="{{reminiscent|memorum}} injector" />
+        <part Name="Render" DisplayName="{{reminiscent|reminessence}} injector" />
         <part Name="UrsaCascadia_Memorum_Tonic_Applicator" />
         <part Name="RulesDescription" Text="Causes a memorum crystal to sprout from your flesh.
         The memorum crystal can be crushed to return to the moment it was formed.
@@ -16,7 +16,7 @@
         <tag Name="ExcludeFromDynamicEncounters" />
     </object>
     <object Name="UrsaCascadia_MemorumCrystal" Inherits="Trinket">
-        <part Name="Render" DisplayName="{{reminiscent|memorum}} crystal" Tile="Assets_Content_Textures_Items_bit11" RenderString="&#x4;" ColorString="&amp;B" DetailColor="m" />
+        <part Name="Render" DisplayName="{{reminiscent|reminessence}} crystal" Tile="Assets_Content_Textures_Items_bit11" RenderString="&#x4;" ColorString="&amp;B" DetailColor="m" />
         <part Name="Commerce" Value="0" />
         <part Name="Examiner" Unknown="darkCrystal" Complexity="0" />
         <part Name="TinkerItem" CanDisassemble="false" CanBuild="false" />

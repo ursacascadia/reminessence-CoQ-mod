@@ -95,7 +95,7 @@ namespace XRL.World.Parts {
             // PlayWorldSound("Sounds/Interact/sfx_interact_curlingIron_press");
             if (XRL.XRLGame.LoadCurrentGame("Crystal") == null)
             {
-                // XRL.Messages.MessageQueue.AddPlayerMessage("[Debug: Command failed.]");
+                XRL.UI.Popup.ShowFail("The crystal disentegrates... but nothing happens.");
                 return false;
             }
             XRL.UI.Popup.Show("The crystal disentegrates. Reminiscense flashes before your eyes.");
