@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+	<object Name="UnknownSmallImperialTube" Inherits="UnknownMed">
+		<part Name="Render" DisplayName="{{M|imperial}} tube" ColorString="&amp;M" />		
+		<tag Name="ExaminerUnknownMeds" />
+	</object>
+</objects>
