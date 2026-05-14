@@ -8,6 +8,9 @@ namespace XRL.World.Effects {
     [Serializable]
     public class UrsaCascadia_Memorum_Tonic_Effect : ITonicEffect, ITierInitialized
     {
+        private bool GaveCrystal = false;
+        private bool SavedGame = false;
+
         public UrsaCascadia_Memorum_Tonic_Effect()
         {
             base.Duration = 12;
@@ -75,19 +78,25 @@ namespace XRL.World.Effects {
         }
 
         public override bool HandleEvent(AfterGameLoadedEvent E) {
-            return GetBasisGameObject().RemoveEffect(this);
+            if (XRL.UI.Options.GetOption("Option_UrsaCascadia_SaveTonic_PersistentCheckpoint") == "Yes")
+            {
+                return GetBasisGameObject().RemoveEffect(this);
+            }
+            return false;
         }
 
         public override bool FireEvent(Event E)
         {
             if (E.ID == "EndAction")
             {
-                if (base.Duration == 6)
+                if (base.Duration == 6 && !SavedGame)
                 {
+                    SavedGame = true;
                     XRLCore.Core.Game.SaveGame("Crystal", "Crystal realigning", true, true);
                     XRL.UI.Popup.Show("The feeling in your arm intensifies, flowing from your mind to your palm like a river gushing under your flesh.");
                 }
-                if (base.Duration == 3) {
+                if (base.Duration == 3 && !GaveCrystal) {
+                    GaveCrystal = true;
                     GameObject crystal = GameObjectFactory.Factory.CreateObject("UrsaCascadia_MemorumCrystal");
                     XRL.UI.Popup.Show("A small crystal sprouts from your palm, enveloped by blood. The refraction shifts as the crystalline lattice realigns, then settles.");
                     base.Object.ReceiveObject(crystal);
