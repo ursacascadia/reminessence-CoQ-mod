@@ -8,6 +8,7 @@ namespace XRL.World.Parts {
     [Serializable]
     public class UrsaCascadia_Memorum_Crystal : IPart
     {
+        bool IsRealityDistortionBased = true;
         public static readonly string COMMAND_NAME = "CrushCrystal";
 
         public override bool WantEvent(int ID, int cascade)
@@ -66,36 +67,23 @@ namespace XRL.World.Parts {
         {
             return true;
         }
-        
-        // public override void Register(GameObject Object, IEventRegistrar Registrar)
-        // {
-        //     Registrar.Register("BeforeDie");
-        //     base.Register(Object, Registrar);
-        // }
-
-        // public override bool FireEvent(Event E)
-        // {
-        //     if (E.ID == "BeforeDie")
-        //     {
-        //         return CrushCrystal();
-        //     }
-        //     return base.FireEvent(E);
-        // }
 
         public override bool HandleEvent(BeforeDieEvent E)
         {
-            // XRL.Messages.MessageQueue.AddPlayerMessage("[Debug: Died, so activating crystal.]");
             CrushCrystal();
             return false;
         }
 
         public bool CrushCrystal()
         {
-            // XRL.Messages.MessageQueue.AddPlayerMessage("[Debug: Crystal crush attempt.]");
-            // PlayWorldSound("Sounds/Interact/sfx_interact_curlingIron_press");
+            // if (!IComponent<GameObject>.CheckRealityDistortionUsability(ParentObject, null, ParentObject.Holder, ParentObject))
+            // {
+            //     XRL.UI.Popup.ShowFail("Reminessence crystal affected by normality.");
+            //     return false;
+            // } Doesnt work.
             if (XRL.XRLGame.LoadCurrentGame("Crystal") == null)
             {
-                XRL.UI.Popup.ShowFail("The crystal disentegrates... but nothing happens.");
+                XRL.UI.Popup.ShowFail("The crystal resists breaking. Nothing happens.");
                 return false;
             }
             XRL.UI.Popup.Show("The crystal disentegrates. Reminiscense flashes before your eyes.");
