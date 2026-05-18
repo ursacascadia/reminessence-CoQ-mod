@@ -6,4 +6,7 @@
     <object Name="Barathrum" Load="Merge">
       <inventoryobject Blueprint="UrsaCascadia_MemorumTonicFancy" Number="1" />
     </object>
+    <object Name="Santalalotze" Load="Merge">
+      <inventoryobject Blueprint="UrsaCascadia_MemorumTonicLuxurious" Number="1" />
+    </object>
 </objects>
