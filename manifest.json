@@ -3,7 +3,7 @@
     "LoadOrder": 1,
     "Title": "reminessence",
     "Description": "Adds the reminessence tonic, an exceedingly rare artifact that allows one to cheat death.",
-    "Version": "0.1.0",
+    "Version": "1.0.0",
     "Author": "{{amorous|UrsaCascadia}}",
     "Tags": "Tonic, Item, Balance",
     "PreviewImage": "preview.png",
