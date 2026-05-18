@@ -6,5 +6,11 @@
     "Version": "0.1.0",
     "Author": "{{amorous|UrsaCascadia}}",
     "Tags": "Tonic, Item, Balance",
-    "PreviewImage": "preview.png"
+    "PreviewImage": "preview.png",
+    "Directories": [
+        {
+            "Path": "/ObjectBlueprintsDynamicOption/",
+            "Options": [ "Option_UrsaCascadia_SaveTonic_InDynamicEncounters == Yes" ]
+        }
+    ]
 }

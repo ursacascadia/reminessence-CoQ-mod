@@ -2,6 +2,14 @@
 <options>
     <option ID="Option_UrsaCascadia_SaveTonic_PersistentCheckpoint" DisplayText="One chance" Category="reminessence"
     Type="Checkbox" Default="Yes" Restart="false">
-        <helptext>One tonic = one extra life. Disable to allow unlimited respawns from one tonic checkpoint. (Unimplemented.)</helptext>
+        <helptext>One tonic = one chance to return. Disable for unlimited chances.</helptext>
+    </option>
+    <option ID="Option_UrsaCascadia_SaveTonic_NormalityAffected" DisplayText="Acknowledge normality" Category="reminessence"
+    Type="Checkbox" Default="Yes" Restart="false">
+        <helptext>Acknowledge the effects of reality stabilization when attempting to warp space-time.</helptext>
+    </option>
+    <option ID="Option_UrsaCascadia_SaveTonic_InDynamicEncounters" DisplayText="Find in random encounters" Category="reminessence"
+    Type="Checkbox" Default="No" Restart="true">
+        <helptext>Allow tonics to generate as part of random encounters.</helptext>
     </option>
 </options>
