@@ -79,7 +79,7 @@ namespace XRL.World.Parts {
         public bool CrushCrystal()
         {
             // Check if reality is stabilized (enough for the tomb of the eaters high floors to stop the crystal, but only while held--tomb normality only applies to creatures.)
-            if (!IComponent<GameObject>.CheckRealityDistortionUsability(ParentObject, ParentObject.GetCurrentCell(), ParentObject.Holder, ParentObject, null, 35) && XRL.UI.Options.GetOption("Option_UrsaCascadia_SaveTonic_NormalityAffected") == "Yes")
+            if (XRL.UI.Options.GetOption("Option_UrsaCascadia_SaveTonic_NormalityAffected") == "Yes" && !IComponent<GameObject>.CheckRealityDistortionUsability(ParentObject, ParentObject.GetCurrentCell(), ParentObject.Holder, ParentObject, null, 35))
             {
                 XRL.UI.Popup.ShowFail("A local normality lattice prevents destruction of a reminessence crystal.");
                 return false;
