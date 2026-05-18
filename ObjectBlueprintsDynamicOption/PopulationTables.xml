@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<populations>
+    <population Name="Injectors">
+        <group Name="Items" Style="pickone">
+            <object Weight="200" Number="1" Blueprint="SalveTonic" />
+            <object Weight="100" Number="1" Blueprint="BlazeTonic" />
+            <object Weight="100" Number="1" Blueprint="SphynxSaltTonic" />
+            <object Weight="100" Number="1" Blueprint="SkulkTonic" />
+            <object Weight="100" Number="1" Blueprint="HulkHoneyTonic" />
+            <object Weight="100" Number="1" Blueprint="RubbergumTonic" />
+            <object Weight="100" Number="1" Blueprint="ShadeOilTonic" />
+            <object Weight="100" Number="1" Blueprint="LoveTonic" />
+            <object Weight="2" Number="1" Blueprint="UbernostrumTonic" />
+            <object Weight="1" Number="1" Blueprint="UrsaCascadia_MemorumTonic" />
+        </group>
+    </population>
+    <population Name="MegaMeds" Load="Merge">
+        <group Name="Items" Load="Merge">
+            <object Weight="10" Number="1" Blueprint="UrsaCascadia_MemorumTonic" />
+        </group>
+    </population>
+</populations>

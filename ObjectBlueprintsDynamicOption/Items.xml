@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+    <object Name="UrsaCascadia_MemorumTonic" Inherits="Tonic">
+        <part Name="Render" DisplayName="{{reminiscent|reminessence}} injector" ColorString="&amp;B" DetailColor="m" />
+        <part Name="UrsaCascadia_Memorum_Tonic_Applicator" />
+        <part Name="RulesDescription" Text="Causes a reminessence crystal to sprout from your flesh.
+        The reminessence crystal can be crushed to return to the moment it was formed.
+        When you die, the reminessence crystal will spontaneously disentigrate, bringing you back automatically.
+        Using this while you carry a reminessence crystal will change the resonance of the existing crystal as well."
+        />
+        <tag Name="Tier" Value="5" />
+        <tag Name="TechTier" Value="4" />
+        <part Name="TinkerItem" CanDisassemble="false" CanBuild="false" />
+        <part Name="Commerce" Value="650" />
+        <tag Name="Gift" Value="*noinherit" />
+    </object>
+</objects>
