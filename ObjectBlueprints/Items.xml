@@ -11,12 +11,12 @@
         <tag Name="Tier" Value="3" />
         <tag Name="TechTier" Value="4" />
         <part Name="TinkerItem" CanDisassemble="false" CanBuild="false" />
-        <part Name="Commerce" Value="1000" />
+        <part Name="Commerce" Value="650" />
         <tag Name="Gift" Value="*noinherit" />
         <tag Name="ExcludeFromDynamicEncounters" />
     </object>
     <object Name="UrsaCascadia_MemorumTonicFancy" Inherits="UrsaCascadia_MemorumTonic"> <!-- expensive version -->
-        <part Name="Commerce" Value="2000" />
+        <part Name="Commerce" Value="1250" />
         <tag Name="Tier" Value="6" />
         <tag Name="ExcludeFromDynamicEncounters" />
     </object>
