@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objects>
     <object Name="Tszappur" Load="Merge">
-		<inventoryobject Blueprint="UrsaCascadia_MemorumTonic" Number="1" />
+		  <inventoryobject Blueprint="UrsaCascadia_MemorumTonic" Number="1" />
+    </object>
+    <object Name="Barathrum" Load="Merge">
+      <inventoryobject Blueprint="UrsaCascadia_MemorumTonicFancy" Number="1" />
     </object>
 </objects>
