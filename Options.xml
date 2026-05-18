@@ -2,7 +2,7 @@
 <options>
     <option ID="Option_UrsaCascadia_SaveTonic_PersistentCheckpoint" DisplayText="One chance" Category="reminessence"
     Type="Checkbox" Default="Yes" Restart="false">
-        <helptext>One tonic = one chance to return. Disable for unlimited chances.</helptext>
+        <helptext>Permanently alter the course of time after the crystal bursts. (Disable for unlimited lives.)</helptext>
     </option>
     <option ID="Option_UrsaCascadia_SaveTonic_NormalityAffected" DisplayText="Acknowledge normality" Category="reminessence"
     Type="Checkbox" Default="Yes" Restart="false">
@@ -10,6 +10,6 @@
     </option>
     <option ID="Option_UrsaCascadia_SaveTonic_InDynamicEncounters" DisplayText="Find in random encounters" Category="reminessence"
     Type="Checkbox" Default="No" Restart="true">
-        <helptext>Allow tonics to generate as part of random encounters.</helptext>
+        <helptext>Find tonics scattered about the world.</helptext>
     </option>
 </options>
