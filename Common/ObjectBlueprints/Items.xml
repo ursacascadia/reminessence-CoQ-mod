@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <objects>
     <object Name="UrsaCascadia_MemorumTonic" Inherits="Tonic">
-        <part Name="Render" DisplayName="{{reminiscent|reminessence}} injector" ColorString="&amp;B" DetailColor="m" />
+        <part Name="Render" DisplayName="{{reminiscent|reminessence}} injector" />
         <part Name="UrsaCascadia_Memorum_Tonic_Applicator" />
         <part Name="RulesDescription" Text="Causes a reminessence crystal to sprout from your flesh.
         The reminessence crystal can be crushed to return to the moment it was formed.
