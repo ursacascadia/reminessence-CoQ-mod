@@ -18,11 +18,13 @@
     <object Name="UrsaCascadia_MemorumTonicFancy" Inherits="UrsaCascadia_MemorumTonic"> <!-- expensive version -->
         <part Name="Commerce" Value="1250" />
         <tag Name="Tier" Value="7" />
+        <part Name="TinkerItem" SubstituteBlueprint="UrsaCascadia_MemorumTonic" />
         <tag Name="ExcludeFromDynamicEncounters" />
     </object>
     <object Name="UrsaCascadia_MemorumTonicLuxurious" Inherits="UrsaCascadia_MemorumTonic"> <!-- most expensive version -->
         <part Name="Commerce" Value="4000" />
         <tag Name="Tier" Value="7" />
+        <part Name="TinkerItem" SubstituteBlueprint="UrsaCascadia_MemorumTonic" />
         <tag Name="ExcludeFromDynamicEncounters" />
     </object>
     <object Name="UrsaCascadia_MemorumCrystal" Inherits="Trinket">
