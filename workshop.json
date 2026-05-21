@@ -1,7 +1,7 @@
 {
   "WorkshopId": 3724969763,
   "Title": "Reminessence",
-  "Description": "Adds the reminessence tonic, an exceedingly rare artifact that allows one to cheat death.\n\nOne can be purchased from Tszappur, in the Six Day Stilt.",
+  "Description": "Adds the reminessence tonic, an exceedingly rare artifact that allows one to cheat death.\n\nOne can be purchased from Tszappur, in the Six Day Stilt.\n\nSource available on https://github.com/ursacascadia/reminessence-CoQ-mod",
   "Tags": "tonic, save, balance, difficulty, roleplay",
   "Visibility": "2",
   "ImagePath": "preview.png"
